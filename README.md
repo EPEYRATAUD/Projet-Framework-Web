@@ -16,6 +16,10 @@ N’hésitez pas à vous répartir les tâches en fonction de vos compétences /
 Le projet doit être runnable avec le SDK net 6 installé -  après un git clone + dotnet runs
 Présentation (support slides) / Démo 10-15mn + 5mn questions.
 
+## EZLinks
+
+<https://docs.google.com/document/d/1CWPOiOckPzJrlxfEcY6iY0PMPXyhArF6uB4tWUeivk0/edit>#
+
 ## Routes
 
 ### **page d’accueil du site  “/” :**
