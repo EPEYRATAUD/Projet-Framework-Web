@@ -1,3 +1,5 @@
+///en cours
+
 create table course (
     Id
     Name (length: min 2, max 50 (requis),
