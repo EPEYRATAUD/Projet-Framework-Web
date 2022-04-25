@@ -5973,26 +5973,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\romai\\.nuget\\packages\\": {}
+    "C:\\Users\\Max\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\mvc-B2B\\Test\\Test.csproj",
+      "projectUniqueName": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "c:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\mvc-B2B\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\romai\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\mvc-B2B\\Test\\obj\\",
+      "projectPath": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\romai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6047,7 +6045,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

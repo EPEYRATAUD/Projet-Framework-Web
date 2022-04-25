@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\Projet-Framework-Web\\App\\App.csproj": {}
+    "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\Projet-Framework-Web\\App\\App.csproj": {
+    "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\Projet-Framework-Web\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\Projet-Framework-Web\\App\\App.csproj",
-        "packagesPath": "C:\\Users\\romai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\romai\\Desktop\\Ywork\\B2\\framework web\\Projet-Framework-Web\\App\\obj\\",
+        "projectPath": "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj",
+        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\romai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,9 +38,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -63,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

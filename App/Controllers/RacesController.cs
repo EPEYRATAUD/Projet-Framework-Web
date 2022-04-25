@@ -1,40 +1,43 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using App.Data;
 using App.Models;
 using App.ViewModels;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.Controllers
 {
     public class RacesController : Controller
     {
+        private readonly IRepository<Race> _raceRepository;
+
+        public RacesController(IRepository<Race> raceRepository)
+        {
+            _raceRepository = raceRepository;
+        }
         // GET: Races
         public ActionResult Index()
         {
-            var races = new List<Race>()
-            {
-                new Race()
-                {
-                    Id = 1,
-                    Name = "Ma course 123",
-                    EventDate = new DateOnly(2022, 04, 02)
-                },
-                new Race()
-                {
-                    Id = 2,
-                    Name = "Ma super pas course",
-                    EventDate = new DateOnly(2022, 02, 02)
-                },
-                new Race()
-                {
-                    Id = 3,
-                    Name= "Ma course pourrie",
-                    EventDate = new DateOnly(2022, 04, 02)
-                }
-            };
+            var races = _raceRepository.GetAll();
+            // var races = new List<Race>()
+            // {
+            //     new Race()
+            //     {
+            //         Id = 1,
+            //         Name = "Ma course 123",
+            //         EventDate = new DateTime(2022, 04, 02)
+            //     },
+            //     new Race()
+            //     {
+            //         Id = 2,
+            //         Name = "Ma super pas course",
+            //         EventDate = new DateTime(2022, 02, 02)
+            //     },
+            //     new Race()
+            //     {
+            //         Id = 3,
+            //         Name= "Ma course pourrie",
+            //         EventDate = new DateTime(2022, 04, 02)
+            //     }
+            // };
 
             var raceListViewModel = new RaceListViewModel(
                 races,
@@ -44,7 +47,7 @@ namespace App.Controllers
             return View("RaceList", raceListViewModel);
         }
 
-         // GET: Races/
+        // GET: Races/
         public ActionResult List()
         {
             return Ok("LIST ACTION CALLED !");
@@ -58,9 +61,9 @@ namespace App.Controllers
         }
 
         // GET: Races/Create
-        public ActionResult Create(int toto)
+        public ActionResult Create()
         {
-            
+
             return View("CreateRace");
         }
 
@@ -74,12 +77,21 @@ namespace App.Controllers
                 if (ModelState.IsValid)
                 {
                     // TODO: Add insert logic here
+                    Race newRace = new()
+                    {
+                        Name = race.RaceName,
+                        EventDate = race.RaceDate
+                    };
+
+                    _raceRepository.Add(newRace);
+                    _raceRepository.Commit();
+
                     return RedirectToAction(nameof(Index));
                 }
 
-               return View("CreateRace");
+                return View("CreateRace");
             }
-            catch   
+            catch
             {
                 return View("CreateRace");
             }

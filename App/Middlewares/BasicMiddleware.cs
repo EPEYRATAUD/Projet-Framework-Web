@@ -2,7 +2,7 @@ namespace App.Middlewares
 {
     public class BasicMiddleware
     {
-        public readonly RequestDelegate _next;
+        private readonly RequestDelegate _next;
 
         public BasicMiddleware(RequestDelegate next)
         {
@@ -11,9 +11,9 @@ namespace App.Middlewares
 
         public async Task InvokeAsync(HttpContext context)
         {
-            Console.WriteLine("...MW2 ===>");
+            Console.WriteLine("...MW1 ===>");
             await _next(context);
-            Console.WriteLine("<=== MW2 ...");
+            Console.WriteLine("<=== MW1 ...");
         }
     }
 }

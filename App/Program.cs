@@ -1,7 +1,26 @@
+using App.Data;
+using App.Middlewares;
+using App.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IRepository<Race>, EFRaceRepository>();
+
+var connectionString = "server=localhost;user=root;password=my_secret_psw;database=app_db";
+var serverVersion = new MySqlServerVersion(new Version(8, 0, 27));
+
+
+builder.Services.AddDbContext<AppDbContext>(
+    dbContextOptions => dbContextOptions
+        .UseMySql(connectionString, serverVersion)
+        .LogTo(Console.WriteLine, LogLevel.Information)
+        .EnableSensitiveDataLogging()
+        .EnableDetailedErrors()
+);
 
 var app = builder.Build();
 
@@ -13,22 +32,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.Use(async (context, next) =>
-{
-    Console.WriteLine("...MW2 ===>");
-    await next();
-    Console.WriteLine("<=== MW2 ...");
-});
-app.Use(async (context, next) =>
-{
-    Console.WriteLine("...MW1 ===>");
-    await next();
-    Console.WriteLine("<=== MW1 ...");
-});
-
-
-
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -36,7 +39,13 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseBasicMiddleware();
 
+app.Use(async (context, next) => {
+    Console.WriteLine("...MW2 ===>");
+    await next();
+    Console.WriteLine("<=== MW2 ...");
+});
 
 // app.MapControllerRoute(
 //     name: "listRaces",
@@ -52,14 +61,21 @@ app.UseAuthorization();
 // Cette config dit à ASP.NET : utilise le pattern par défaut controllerName/controllerAction 
 // avec un segment optionnel "?" qui sera injecté en tant que paramètre nommé "id" dans l'action
 // Si la route ne contient aucune "info" typiquement "/" alors utilise le controller Home et l'action Index
+// app.MapControllerRoute(
+//     name: "myGreatRoute",
+//     defaults: new { controller = "Races", action = "Create" },
+//     pattern: "races/createOne"
+//     );
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapControllerRoute(
-    name: "myGreatRoute",
-    defaults: new { controller = "Races", action = "Create" },
-    pattern: "races/createOne"
-    );
+using (var scope = app.Services.CreateScope())
+{
+    scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.EnsureCreated();
+    scope.ServiceProvider.GetRequiredService<AppDbContext>().Seed();
+    // TODO SEED DATA
+}
 
 app.Run();
