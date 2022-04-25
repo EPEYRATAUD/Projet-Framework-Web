@@ -51,7 +51,7 @@ create table driverArray (
 create table resultArray (
     RaceID INT NOT NULL,
     DriverID INT NOT NULL,
-    Rank INT NOT NULL
+    Rankk INT NOT NULL
 );
 
 create table raceCategoryArray (

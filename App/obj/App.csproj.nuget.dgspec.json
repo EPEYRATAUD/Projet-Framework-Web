@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj": {}
+    "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj": {
+    "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj",
+        "projectUniqueName": "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\App.csproj",
         "projectName": "App",
-        "projectPath": "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\App.csproj",
-        "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\obj\\",
+        "projectPath": "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\App.csproj",
+        "packagesPath": "C:\\Users\\romain.michel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\romain.michel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
