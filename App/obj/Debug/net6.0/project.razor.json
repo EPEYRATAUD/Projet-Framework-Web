@@ -16343,6 +16343,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\Views\\Home\\test.cshtml",
+      "TargetPath": "Views\\Home\\test.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\mvc\\App\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
