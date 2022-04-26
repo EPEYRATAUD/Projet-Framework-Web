@@ -8,65 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = App
 build_property.RootNamespace = App
-build_property.ProjectDir = c:\Users\romain.michel\Desktop\SCHOOL\Projet-Framework-Web\App\
+build_property.ProjectDir = C:\Users\yrlan\Desktop\Projet-Framework-Web\App\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\romain.michel\Desktop\SCHOOL\Projet-Framework-Web\App
+build_property.MSBuildProjectDirectory = C:\Users\yrlan\Desktop\Projet-Framework-Web\App
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Home/Index.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Home/Privacy.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Home/test.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Home/test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx0ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Races/RaceList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcUmFjZUxpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Shared/Error.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/_ViewImports.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/_ViewStart.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Home/CreateAccount.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Home/CreateAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-q1ixy0yke1
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Home/Login.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-nj187q67tx
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Home/Profile.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-k7dl0mu196
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Races/CreateRace.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFjZXNcQ3JlYXRlUmFjZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-37weqruaqc
-
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Shared/_Layout.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-78367sr58w
 
-[c:/Users/romain.michel/Desktop/SCHOOL/Projet-Framework-Web/App/Views/Shared/_MyLayout.cshtml]
+[C:/Users/yrlan/Desktop/Projet-Framework-Web/App/Views/Shared/_MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-h2daim7ygw

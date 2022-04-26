@@ -9484,24 +9484,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\romain.michel\\.nuget\\packages\\": {}
+    "C:\\Users\\yrlan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\App.csproj",
+      "projectUniqueName": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\App.csproj",
-      "packagesPath": "C:\\Users\\romain.michel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\romain.michel\\Desktop\\SCHOOL\\Projet-Framework-Web\\App\\obj\\",
+      "projectPath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\App.csproj",
+      "packagesPath": "C:\\Users\\yrlan\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\romain.michel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\yrlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
