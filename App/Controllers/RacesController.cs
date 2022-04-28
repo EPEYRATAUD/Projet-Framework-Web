@@ -70,7 +70,7 @@ namespace App.Controllers
         // POST: Races/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(CreateRaceRequest race)
+        public ActionResult Create(RaceCreateViewModel race)
         {
             try
             {

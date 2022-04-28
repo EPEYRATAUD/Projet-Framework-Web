@@ -9484,26 +9484,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yrlan\\.nuget\\packages\\": {}
+    "C:\\Users\\Max\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\App.csproj",
+      "projectUniqueName": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\Projet-Framework-Web\\App\\App.csproj",
       "projectName": "App",
-      "projectPath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\App.csproj",
-      "packagesPath": "C:\\Users\\yrlan\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\obj\\",
+      "projectPath": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\Projet-Framework-Web\\App\\App.csproj",
+      "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Max\\OneDrive - Ynov\\Documents\\Ynov\\FrameWorkWeb\\Projet-Framework-Web\\App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yrlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Max\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9559,7 +9557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

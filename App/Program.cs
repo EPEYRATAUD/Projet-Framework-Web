@@ -1,13 +1,14 @@
 using App.Data;
 using App.Middlewares;
 using App.Models;
-using App.Controllers;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IRepository<Race>, EFRaceRepository>();
 
 var connectionString = "server=localhost;user=root;password=my_secret_psw;database=app_db";
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 27));
@@ -73,6 +74,7 @@ app.MapControllerRoute(
 using (var scope = app.Services.CreateScope())
 {
     scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.EnsureCreated();
+    scope.ServiceProvider.GetRequiredService<AppDbContext>().Seed();
     // TODO SEED DATA
 }
 
