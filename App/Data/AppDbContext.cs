@@ -17,7 +17,7 @@ public class AppDbContext : DbContext
     public DbSet<RacesArray> RacesArrays { get; set; }
     public DbSet<ResultArray> ResultArrays { get; set; }
     
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+    public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(dbContextOptions)
     {
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)

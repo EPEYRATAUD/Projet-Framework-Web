@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\Views\\Races\\RaceList.cshtml",
+      "TargetPath": "Views\\Races\\RaceList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16330,6 +16335,11 @@
     {
       "FilePath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\Views\\Home\\test.cshtml",
       "TargetPath": "Views\\Home\\test.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\yrlan\\Desktop\\Projet-Framework-Web\\App\\Views\\Races\\CreateRace.cshtml",
+      "TargetPath": "Views\\Races\\CreateRace.cshtml",
       "FileKind": "mvc"
     },
     {
